@@ -1,0 +1,39 @@
+.body {
+  margin: 0;
+  left: 0;
+  padding: 0;
+}
+.link {
+  top: 350px;
+  font-size: large;
+  color: black;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 40px;
+  max-width: 50%;
+  transition: 0.2s;
+}
+.link:hover {
+  top: 350px;
+  font-size: larger;
+  color: black;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 40px;
+  max-width: 50%;
+}
+.search {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.pagesize {
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+.searchbtn {
+  position: absolute;
+  right: 185px;
+  top: 0;
+}
